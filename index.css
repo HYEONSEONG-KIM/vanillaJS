@@ -1,7 +1,23 @@
 body{
-    background-color: peru;
+    background-color: #ecf0f1;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 10%;
+    text-align: center;
 }
 
 h1{
-    color: white;
+    width: 300px;
+    color: #34495e;
+    transition: color .5s ease-in-out;
+}
+
+.clicked{
+    color: #7f8c8d;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25),
+    0 18px 36px -18px rgba(0,0,0,.3),
+    0 -12px 36px -8px rgba(0,0,0,.025);
 }

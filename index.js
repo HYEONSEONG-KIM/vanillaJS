@@ -1,10 +1,15 @@
-const title = document.querySelector("#title")
+const title = document.querySelector("#title");
 
-title.innerHTML = "Hi!"
-title.style.color = "red";
-document.title='I own you now'
+const CLASS_CLICK = "clicked";
 
+function handleClick(){
+   title.classList.toggle(CLASS_CLICK);
+}
 
+function init(){
+    title.addEventListener("onmouseover",handleClick);
+}
+init();
 
 
 

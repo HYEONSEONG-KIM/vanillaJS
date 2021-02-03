@@ -16,6 +16,7 @@
 - 데이터 정렬 방법에는 Array 와 Object가 있음 
 - Array는 []안에 값들을 초기화, Object는 { key:value }의 json형태로 초기화
 - Array를 object안에 Object를 Object안에 넣을수 있음
+- = : 할당, === : 같다
 
 ## Function
 - 함수를 선언 할때는 function 변수이름() 형태로 선언
@@ -24,3 +25,8 @@
 - HTML을 DOM(Document Object Model)객체로 변경할 수 있음
 - HTML에서 id를 사용했을 경우 #, class를 사용했을 경우 . (querySelector를 사용하면)
  
+ ## Event
+ - 어떠한 함수를 특정 이벤트 발생시 호출하고 싶으면 함수에서 ()생략 => 인자값을 줄 수 없음
+ - 구글에 html javascript dom event mdn 검색하면 다양한 이벤트 볼 수 있음
+ - classList.contains 는 특정 값이 있나 없나 판단
+ - toggle은 보다 간편하게 ()안의 값이 있나 없나 판단 후 제거,추가 해줌
