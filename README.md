@@ -1,5 +1,6 @@
 # vanillaJS
 노마드코더 'vanillaJS로 크롬 앱 만들기' 강의 공부 레퍼지토리✏
+- [Project_Report](https://hyeonseong-kim.github.io/vanillaJS/)
 
 ## JS(JavaScript)란??
 - 웹에서 복잡한(주기적으로 내용갱신, 능동적인 지도, 변화하는 그래픽, 동영상 등)기능을 웹페이지에 적용할 수 있게 하는 프로그래밍 언어
