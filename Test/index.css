@@ -1,0 +1,42 @@
+div{
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+header{
+    background-color: lawngreen;
+    height: 200px;    
+}
+nav{
+    background-color: lightslategray;
+    height: 80px;
+
+}
+
+.as1{
+    background-color: lightblue;
+    height: 500px;
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+section{
+    float: left;
+    background-color: lightsalmon;
+    height: 500px;
+    width: 40%;
+    
+}
+.as2{
+    background-color: mediumaquamarine;
+    height: 500px;
+    float: right;
+    width: 32%;
+}
+footer{
+    clear: both;
+    background-color: mediumpurple;
+    height: 90px;
+}
